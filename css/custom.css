@@ -118,7 +118,7 @@ header {
 .img-header img{
 	transform: translate(0);
 	opacity: 1;
-	animation: animacion1 1s ease-out;
+	animation: animacion1 1s ease-out; 
 	width: 100%;
 	margin-top: 190px;
 }
@@ -148,5 +148,160 @@ header {
 }
 
 /*Acerca de  */
+
+.acerca-de{
+	padding-top: 40px;
+}
+
+.contenedor-acerca-de{
+	display: flex; 
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.card-acerca{
+	background: #f2f2f2;
+	width: 30%;
+	border-radius: 3px;
+	padding: 20px 10px;
+	margin-top: 40px;
+}
+
+/*Claro te entiendo 
+  Aldibier tambien me pone muy nervioso
+  sobretodo cuando  se hace aqui atras
+  pero el es muy amable y comprensivo
+  
+
+*/
+
+.acerca-de i{
+	display: block; 
+	font-size: 100px;
+	color: rgba(141, 45, 226, 0.81);
+	margin-bottom: 15px;
+}
+
+.acerca-de h4{
+	margin-bottom: 10px;
+}
+
+.acerca-de p{
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #585858;
+}
+
+/*Servicio */
+
+.servicio-cont {
+	background: #f2f2f2;
+
+}
+
+.servicio{
+	padding: 80px 0;
+	display: flex;
+	justify-content: space-around ; 
+	width: 90%;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.img-servicio{
+	width: 50%;
+}
+
+.img-servicio img{
+	width: 100%;
+	vertical-align: top;
+}
+
+.servicio .contenido-servicio ul li{
+	list-style: none;
+	border-bottom: 4px dotted rgba(141, 45, 226, 0.81);
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	color: rgba(141, 45, 226, 0.81);
+}
+
+.contenido-servicio{
+	width: 50%;
+	padding-left: 30px;
+}
+
+.contenido-servicio{
+	font-size: 30px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.contenido-servicio p{
+	text-align: justify;
+	margin-bottom: 40px;
+	width: 90%;
+	color: #774c4c;
+}
+
+.contenido-servicio ul{
+	padding-left: 10px;
+	width: 60%;
+}
+
+/*Galeria */
+
+.galerias{
+	margin-top: 40px;
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.galeria-img{
+	position: relative;
+	overflow: hidden;
+	width: 32%;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 5px rgb(0, 0, 0 , .75);
+
+}
+
+.galeria-img img{
+	object-fit: cover;
+	width: 100%;
+	height: 250px;
+	vertical-align: top;
+	transform: scale(1);
+	transition: transform .8s;
+}
+
+.galeria-img img:hover{
+	transform: scale(1.3);
+}
+
+.extra-galeria{
+	position: absolute;
+	top: 0;background: rgba(75, 0, 224, 0.543);
+	width: 100%;
+	height: 100%;
+	transform: translate(100%);
+	transition: transform .8s;
+}
+
+.extra-galeria p{
+	width: 95%;
+	margin: 10px auto;
+	color: #ffff;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.galeria-img:hover .extra-galeria{
+	transform: translate(0);
+}
+
 
 
