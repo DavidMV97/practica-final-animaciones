@@ -179,11 +179,10 @@ header {
     margin-top: 40px;
 }
 
-/*Claro te entiendo 
-  Aldibier tambien me pone muy nervioso
-  sobretodo cuando  se hace aqui atras
-  pero el es muy amable y comprensivo
-  
+/*Claro te entiendo
+  fenómeno en el cielo difícil de no mirar asi es ella
+  maravillosamente bella 
+  Yeny paola
 
 */
 
@@ -397,7 +396,7 @@ header {
 	height: 450px;
 	margin: auto;
 	padding-top: 25px;
-	/*overflow: hidden; */
+	overflow: hidden; 
 }
 
 .slider{
@@ -408,6 +407,7 @@ header {
 	transition: transform .5s;
 }
 
+/* Aun no me aparece la imagen del slider no se por que jaja */
 .cont-slide{
 	flex-shrink: 0;
 	width: 100%;
@@ -436,4 +436,154 @@ header {
 
 .cont-slide h4 {
 	color: rgba(75, 0, 224, 0.81);
+}
+
+footer{
+	background: #8E2DE2;
+	/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(75, 0, 224, 0.81), rgba(141, 45, 226, 0.803));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(75, 0, 224, 0.817), rgba(141, 45, 226, 0.81));
+	padding: 80px 0;
+	width: 100%;
+	display: flex; 
+	justify-content: space-around;
+	margin: auto;
+}
+
+footer h6{
+	color: #ffff;
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+footer p{
+	margin-bottom: 10px;
+	color: white;
+	font-style: italic;
+}
+
+.footer-contact{
+	width: 27%;	
+}
+.footer-contact i{
+	font-size: 20px; 
+	color: #fff; 
+	padding: 14px; 
+	background: black;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 100%; 
+	margin: 15px 15px 0 0;
+	cursor: pointer;
+}
+
+.footer-logo{
+	width: 27%;
+	vertical-align: top;
+}
+
+.footer-logo img{
+	width: 100%;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 800px){
+	header{
+		height: auto;
+	}
+	.contenido-header{
+		flex-wrap: wrap;
+		height: 900px;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.contenido-header .textos-header{
+		width: 80%;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+
+	.contenido-header h1{
+		font-size: 40px;
+	}
+	.contenido-header h2{
+		font-size: 20px;
+	}
+
+	.contenido-header .img-header{
+		width: 90%;
+	}
+
+	.contenedor-acerca-de{
+		justify-content: center;
+		align-items: center;
+	}
+	.card-acerca{
+		width: 100%;
+	}
+	.img-servicio{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.contenido-servicio{
+		width: 100%;
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.servicio .contenido-servicio{
+		width: 100%;
+		padding-left: 0px;
+		
+	}
+	.servicio .contenido-servicio ul{
+		display: none;
+	}
+	.contenido-servicio h3{
+		font-size: 25px;
+	}
+
+	/*Galeria */
+	.galeria-img{
+		width: 98%;
+	}
+
+	.tabla{
+		width: 90%;
+		margin-bottom: 40px;
+	}
+	.tabla > a {
+		width: 100px;
+	}
+
+	.cont-slide img{
+		height: 100px;
+		width: 100px;
+	}
+
+	footer{
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.footer-contact{
+		width: 100%;
+	}
+	.footer-logo{
+		width: 100%;
+	}
+
+	.footer-logo img{
+		width: 30%;
+		margin-top: 25px;
+	}
 }
